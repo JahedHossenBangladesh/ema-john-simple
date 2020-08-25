@@ -8,7 +8,15 @@ const Header = () => {
     return (
         <div className ="header">
            <img src={logo} alt=""/>
+           <nav>
+               <div className="nav-left">
+        <a href="/shop">Shop</a>
+        <a href="/order-review">Order Review</a>
+        <a href="/manage-inventory">Manage Inventory</a>
         </div>
+    </nav>
+        </div>
+   
     );
 };
 
